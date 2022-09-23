@@ -23,3 +23,8 @@ class UgaBugaFactory:
 
         return enem
 
+def BuildUgaBuga(name: str) -> Enemy:
+    stats = EnemyStats(100, 80, 2, 4_000)
+    enem = Enemy(stats, ['sword', 'lauchstange'], name)
+
+    return enem

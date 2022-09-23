@@ -1,6 +1,5 @@
-from enemy import UgaBugaFactory
+from enemy import BuildUgaBuga
 
-fac = UgaBugaFactory('leon stinkt')
-enem = fac.build()
+enem = BuildUgaBuga('leon stinkt')
 
 print(enem)
